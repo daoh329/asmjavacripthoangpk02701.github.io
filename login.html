@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form center">
+        <form id="form" class="formm center">
+            <H1 class="title_top">Sign In</H1>
+
+            <label for="name">Username:</label>
+            <input type="text" id="nameidsi" class="namec" placeholder="Nhập tên Đăng Nhập">
+
+            <label for="password">Password:</label>
+            <input type="password" id="passwordidsi" class="passwordc" placeholder="Nhập Mật Khẩu">
+            <div id="errsignin"></div>
+
+            <input type="button" onclick="signincheck()" id="signin" value="Sign In">
+
+            <a href="./register.html">Chưa có tài khoản</a>
+        </form>
+    </div>
+    <script src="./js/register.js"></script>
+</body>
+</html>
